@@ -7,7 +7,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: #6c63ff;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -205,6 +205,28 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+.check_it_out_button{
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.875rem;
+  border-radius: 1rem;
+  
+}
+.check_it_out_button:hover{
+  box-shadow: 0 3px 10px var(--primary-shadow);
+}
+
+.project-link{
+  color: #000;
+  display: inline-block;
+
 }
 
 .contact {
